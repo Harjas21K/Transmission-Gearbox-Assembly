@@ -9,10 +9,10 @@ The goal of this project is to design a detailed and functional 3D model of a **
 
 ## 🛠️ Software & Tools
 
-- **AutoCAD 2024**
-- (Optional) Autodesk Inventor / Fusion 360 (if used for 3D visualization)
+- **AutoCAD 2026**
 - PDF Export for 2D drawings
 - DWG format for original design files
+
 
 ## 📦 Repository Structure
 
@@ -42,7 +42,8 @@ Edit
 
 ## 🔧 Components Included
 
-- Spur and helical gears
+- bevel and possible spur gears
+- vertical and horizontal shafts
 - Input and output shafts
 - Bearings and supports
 - Gear selectors (optional)
@@ -58,9 +59,8 @@ Edit
 
 ## 📝 Project Status
 
-- ✅ Initial sketches and component design
-- ✅ Assembly drawing and exploded views
-- 🔄 Ongoing refinements and documentation
+- Initial sketches and component design
+- In progress of 3d modelling and incorperation of bevel gears on a 90 degree axis to combine vertical shaft with horizontal shafts
 
 ## 🚀 How to Use
 
