@@ -1,0 +1,27 @@
+{
+  "project_name": "BMW 435i 6-Speed Manual Gearbox",
+  "description": "Modeling a 6-speed manual transmission with bevel gears to transfer power from horizontal to vertical shafts.",
+  "gear_ratios": [4.0, 2.5, 1.6, 1.2, 1.0, 0.8],
+  "bevel_gears": {
+    "count": 2,
+    "purpose": "Power transmission between perpendicular shafts",
+    "source": "GrabCAD library models"
+  },
+  "bearings": {
+    "input_shaft": "No bearings on input gears; free gears clamped through bushings",
+    "output_shaft": "Bearings present for shaft support"
+  },
+  "tool_clearance_notes": "Checked manually; plan to create tool envelopes for Allen keys and wrenches in next iteration.",
+  "time_spent_hours": 15,
+  "design_notes": [
+    "Gear spacing eyeballed for concept model; formulas for center distances documented separately.",
+    "Bevel gear alignment approximated; pitch cones to be verified in detail for manufacturing.",
+    "Used existing gear models to save time on bevel gear tooth modeling."
+  ],
+  "next_steps": [
+    "Refine gear spacing with proper center distance calculations.",
+    "Add bearings on input shaft for stability.",
+    "Model tool clearance envelopes in CAD.",
+    "Create assembly and maintenance instructions."
+  ]
+}
